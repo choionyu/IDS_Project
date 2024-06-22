@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/ISD_Platform/bin/ARM/Debug/ISD_Platform.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/ISD_Platform/obj/ARM/Debug/CommunicationISD.o /home/pi/projects/ISD_Platform/obj/ARM/Debug/LedWorkspace.o /home/pi/projects/ISD_Platform/obj/ARM/Debug/SystemRun.o
