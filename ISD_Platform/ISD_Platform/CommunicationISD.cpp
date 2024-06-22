@@ -122,7 +122,7 @@ void *Server::Send(void* vThis)
 
 	PacketProtocolApp *stCmd_;
 	
-	
+	///////////
 	while (1)
 	{
 		stCmd_ = CmdList.front();
